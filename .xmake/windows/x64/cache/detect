@@ -1,0 +1,87 @@
+{
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\link.exe]]
+    },
+    find_program_fetch_package_xmake = {
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_program = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]],
+        zig = false,
+        gdc = false,
+        ccache = false,
+        git = "git",
+        dmd = false,
+        ["vswhere.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe]],
+        unzip = false,
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]],
+        gzip = false,
+        ldc2 = false
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\cl.exe]]
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_sourceDependencies"] = true
+    },
+    find_program_fetch_package_system = {
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::glad_2cb082a712a04167aa58cc4c948cbd67_release_v0.1.34_external"] = {
+            linkdirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\lib]]
+            },
+            license = "MIT",
+            sysincludedirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\include]]
+            },
+            links = {
+                "glad"
+            },
+            static = true,
+            libfiles = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\lib\glad.lib]]
+            }
+        },
+        ["xmake::glfw_b28486932c4340c9b8517e00cf266130_release_3.3.4_external"] = {
+            linkdirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\lib]]
+            },
+            defines = "GLFW_INCLUDE_NONE",
+            syslinks = {
+                "user32",
+                "shell32",
+                "gdi32"
+            },
+            static = true,
+            links = {
+                "glfw3"
+            },
+            sysincludedirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\include]]
+            },
+            libfiles = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\lib\glfw3.lib]]
+            }
+        },
+        ["xmake::glm_8335bab7c0314ab9921440de58961aac_release_0.9.9+8_external"] = {
+            sysincludedirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]]
+            }
+        },
+        ["xmake::stb_86911977ee9f47b7ac1685c567fd7b8b_release_0.0_external"] = {
+            sysincludedirs = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\s\stb\0.0\86911977ee9f47b7ac1685c567fd7b8b\include]]
+            }
+        }
+    },
+    find_programver = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    find_programver_fetch_package_xmake = {
+        ["C:\\Program Files\\CMake\\bin\\cmake"] = "3.23.0-rc2"
+    }
+}

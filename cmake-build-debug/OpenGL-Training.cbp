@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGL-Training"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL-Training">
+				<Option output="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/build/windows/x64/release/OpenGL-Training.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_INCLUDE_NONE"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glfw/3.3.4/b28486932c4340c9b8517e00cf266130/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glad/v0.1.34/2cb082a712a04167aa58cc4c948cbd67/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glm/0.9.9+8/8335bab7c0314ab9921440de58961aac/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/s/stb/0.0/86911977ee9f47b7ac1685c567fd7b8b/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL-Training"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGL-Training/fast">
+				<Option output="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/build/windows/x64/release/OpenGL-Training.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_INCLUDE_NONE"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glfw/3.3.4/b28486932c4340c9b8517e00cf266130/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glad/v0.1.34/2cb082a712a04167aa58cc4c948cbd67/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/g/glm/0.9.9+8/8335bab7c0314ab9921440de58961aac/include"/>
+					<Add directory="C:/Users/vince/AppData/Local/.xmake/packages/s/stb/0.0/86911977ee9f47b7ac1685c567fd7b8b/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGL-Training/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vince/Desktop/Programming/OpenGL-Training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/vince/Desktop/Programming/OpenGL-Training/src/Shader.cpp">
+			<Option target="OpenGL-Training"/>
+		</Unit>
+		<Unit filename="C:/Users/vince/Desktop/Programming/OpenGL-Training/src/Texture.cpp">
+			<Option target="OpenGL-Training"/>
+		</Unit>
+		<Unit filename="C:/Users/vince/Desktop/Programming/OpenGL-Training/src/main.cpp">
+			<Option target="OpenGL-Training"/>
+		</Unit>
+		<Unit filename="C:/Users/vince/Desktop/Programming/OpenGL-Training/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

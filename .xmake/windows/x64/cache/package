@@ -1,0 +1,66 @@
+{
+    glfw = {
+        sysincludedirs = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\include]],
+        __requirestr = "glfw",
+        __enabled = true,
+        __installdir = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130]],
+        links = {
+            "glfw3",
+            "opengl32"
+        },
+        linkdirs = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\lib]],
+        defines = "GLFW_INCLUDE_NONE",
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        static = true,
+        libfiles = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\lib\glfw3.lib]],
+        envs = {
+            PATH = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glfw\3.3.4\b28486932c4340c9b8517e00cf266130\bin]],
+                [[C:\Users\vince\AppData\Local\.xmake\packages\c\cmake\3.21.0\b14e2ab395d54ecd9721929979be4a98\bin]],
+                [[C:\Users\vince\AppData\Local\.xmake\packages\o\opengl\latest\8574311f4b544fa89a3d8c3ee79d1929\bin]]
+            }
+        }
+    },
+    glad = {
+        sysincludedirs = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\include]],
+        __requirestr = "glad",
+        __enabled = true,
+        linkdirs = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\lib]],
+        libfiles = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\lib\glad.lib]],
+        links = "glad",
+        __installdir = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67]],
+        static = true,
+        license = "MIT",
+        envs = {
+            PATH = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glad\v0.1.34\2cb082a712a04167aa58cc4c948cbd67\bin]]
+            }
+        }
+    },
+    stb = {
+        sysincludedirs = [[C:\Users\vince\AppData\Local\.xmake\packages\s\stb\0.0\86911977ee9f47b7ac1685c567fd7b8b\include]],
+        __requirestr = "stb",
+        __installdir = [[C:\Users\vince\AppData\Local\.xmake\packages\s\stb\0.0\86911977ee9f47b7ac1685c567fd7b8b]],
+        envs = {
+            PATH = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\s\stb\0.0\86911977ee9f47b7ac1685c567fd7b8b\bin]]
+            }
+        },
+        __enabled = true
+    },
+    glm = {
+        sysincludedirs = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\include]],
+        __requirestr = "glm",
+        __installdir = [[C:\Users\vince\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac]],
+        envs = {
+            PATH = {
+                [[C:\Users\vince\AppData\Local\.xmake\packages\g\glm\0.9.9+8\8335bab7c0314ab9921440de58961aac\bin]]
+            }
+        },
+        __enabled = true
+    }
+}
