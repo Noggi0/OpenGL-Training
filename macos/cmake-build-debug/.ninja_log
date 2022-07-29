@@ -1,0 +1,17 @@
+# ninja log v5
+0	1024	1658773200549985220	CMakeFiles/OpenGL-Training.dir/src/Texture.cpp.o	d3b1149819d00b46
+12	811	1658774041158541404	CMakeFiles/OpenGL-Training.dir/src/Shader.cpp.o	a86fd7a3bad6e4df
+3	761	1658777357853277630	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	52f2d86acce194e0
+761	860	1658777357954798820	../build/macosx/arm64/debug/OpenGL-Training	6d3b33cb1dad17cf
+3	483	1658779190008000618	CMakeFiles/OpenGL-Training.dir/src/Texture.cpp.o	c9bc488e069758bd
+3	511	1658779190036047084	CMakeFiles/OpenGL-Training.dir/src/Shader.cpp.o	72ff76a9ee4206a4
+4	558	1658779190083389069	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	c310854d64ed62cb
+558	640	1658779190167707425	../build/macosx/arm64/debug/OpenGL-Training	d107a79da73e0c1c
+2	719	1658779437437247596	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	c310854d64ed62cb
+719	820	1658779437540653096	../build/macosx/arm64/debug/OpenGL-Training	d107a79da73e0c1c
+2	707	1658779459912516421	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	c310854d64ed62cb
+707	805	1658779460013621372	../build/macosx/arm64/debug/OpenGL-Training	d107a79da73e0c1c
+3	814	1658779527442502859	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	c310854d64ed62cb
+814	925	1658779527557405812	../build/macosx/arm64/debug/OpenGL-Training	d107a79da73e0c1c
+2	738	1658779555929189967	CMakeFiles/OpenGL-Training.dir/src/main.cpp.o	c310854d64ed62cb
+738	844	1658779556037844192	../build/macosx/arm64/debug/OpenGL-Training	d107a79da73e0c1c

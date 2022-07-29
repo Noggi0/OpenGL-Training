@@ -1,0 +1,105 @@
+{
+    glfw = {
+        frameworks = {
+            "Cocoa",
+            "IOKit",
+            "OpenGL"
+        },
+        static = true,
+        __installdir = "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc",
+        __requirestr = "glfw 3.3.8",
+        libfiles = "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc/lib/libglfw3.a",
+        version = "3.3.8",
+        links = "glfw3",
+        __enabled = true,
+        linkdirs = "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc/lib",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc/lib",
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/lib",
+                "/Users/vincentson/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            },
+            PATH = {
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/bin"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc/lib",
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/lib",
+                "/Users/vincentson/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            }
+        },
+        defines = {
+            "GLFW_INCLUDE_NONE",
+            "GL_SILENCE_DEPRECATION"
+        },
+        sysincludedirs = "/Users/vincentson/.xmake/packages/g/glfw/3.3.8/a8f9078f9be44a1e87e24c92082beacc/include",
+        license = "zlib"
+    },
+    glm = {
+        version = "0.9.9+8",
+        __enabled = true,
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/lib"
+            }
+        },
+        __installdir = "/Users/vincentson/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4",
+        sysincludedirs = "/Users/vincentson/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/include",
+        __requirestr = "glm"
+    },
+    glad = {
+        static = true,
+        __installdir = "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6",
+        __requirestr = "glad",
+        version = "v0.1.36",
+        links = "glad",
+        __enabled = true,
+        libfiles = "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib/libglad.a",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/lib",
+                "/Users/vincentson/.xmake/packages/o/openssl/1.1.1o/e9500b16e1dd49ceb0d390a0c3a48afc/lib",
+                "/Users/vincentson/.xmake/packages/c/ca-certificates/20220604/51913468522a4e438a3c02d664b19e69/lib",
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/lib"
+            },
+            PATH = {
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/bin",
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/bin",
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/bin",
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/Scripts"
+            },
+            PYTHONPATH = {
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/lib/python3.9/site-packages"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+                "/Users/vincentson/.xmake/packages/c/cmake/3.22.1/8de3f15251494ee7a281ba0b207dc59c/lib",
+                "/Users/vincentson/.xmake/packages/o/openssl/1.1.1o/e9500b16e1dd49ceb0d390a0c3a48afc/lib",
+                "/Users/vincentson/.xmake/packages/c/ca-certificates/20220604/51913468522a4e438a3c02d664b19e69/lib",
+                "/Users/vincentson/.xmake/packages/p/python/3.9.13/f1a7a1d25573415bbedf2e615248f08d/lib"
+            }
+        },
+        linkdirs = "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+        sysincludedirs = "/Users/vincentson/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/include",
+        license = "MIT"
+    },
+    stb = {
+        version = "2021.09.10",
+        __enabled = true,
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/s/stb/2021.09.10/a5eef0c926984a9da9c9ab04bb2ad1b9/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/vincentson/.xmake/packages/s/stb/2021.09.10/a5eef0c926984a9da9c9ab04bb2ad1b9/lib"
+            }
+        },
+        __installdir = "/Users/vincentson/.xmake/packages/s/stb/2021.09.10/a5eef0c926984a9da9c9ab04bb2ad1b9",
+        sysincludedirs = "/Users/vincentson/.xmake/packages/s/stb/2021.09.10/a5eef0c926984a9da9c9ab04bb2ad1b9/include",
+        __requirestr = "stb"
+    }
+}

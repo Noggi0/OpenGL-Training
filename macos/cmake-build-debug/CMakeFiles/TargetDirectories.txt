@@ -1,0 +1,3 @@
+/Users/vincentson/code/OpenGL-Training/macos/cmake-build-debug/CMakeFiles/OpenGL-Training.dir
+/Users/vincentson/code/OpenGL-Training/macos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vincentson/code/OpenGL-Training/macos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

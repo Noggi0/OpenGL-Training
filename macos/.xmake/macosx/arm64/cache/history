@@ -1,0 +1,14 @@
+{
+    cmdlines = {
+        "xmake run",
+        "xmake f -y -p macosx -a arm64 -m debug",
+        "xmake -w",
+        "xmake run OpenGL-Training",
+        "xmake project -k cmake -y",
+        "xmake -r -w",
+        "xmake -r -w",
+        "xmake project -k cmake -y",
+        "xmake l /Users/vincentson/.vscode/extensions/tboox.xmake-vscode-1.6.9/assets/explorer.lua",
+        "xmake l /Users/vincentson/.vscode/extensions/tboox.xmake-vscode-1.6.9/assets/config.lua"
+    }
+}
